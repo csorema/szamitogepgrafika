@@ -94,7 +94,6 @@ int main(int argc, char* argv[]) {
         SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);
         SDL_RenderClear(renderer);
 
-        // Paletta kirajzolása
         for (int i = 0; i < paletteSize; ++i) {
             SDL_Rect rect = {i * (SCREEN_WIDTH / paletteSize), SCREEN_HEIGHT - 50, SCREEN_WIDTH / paletteSize, 50};
             SDL_SetRenderDrawColor(renderer, palette[i].r, palette[i].g, palette[i].b, palette[i].a);

@@ -79,7 +79,6 @@ int main(int argc, char* argv[]) {
             SDL_SetRenderDrawColor(renderer, palette[i].r, palette[i].g, palette[i].b, palette[i].a);
             SDL_RenderFillRect(renderer, &rect);
         }
-
         for (int i = 0; i < rectCount; ++i) {
             SDL_SetRenderDrawColor(renderer, rectangles[i].color.r, rectangles[i].color.g, rectangles[i].color.b, rectangles[i].color.a);
             SDL_RenderFillRect(renderer, &rectangles[i].rect);

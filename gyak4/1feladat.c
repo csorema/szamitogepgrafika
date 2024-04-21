@@ -6,7 +6,6 @@ typedef struct {
     int blue;
 } Color;
 
-// Line struktúra szakasz végpontjaival és színével
 typedef struct {
     int x1, y1; // Kezdőpont koordinátái
     int x2, y2; // Végpont koordinátái
