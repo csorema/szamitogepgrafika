@@ -13,7 +13,6 @@ typedef struct {
 } Line;
 
 int main() {
-    // Példa egy Line struktúra létrehozására és inicializálására
     Line line1 = {0, 0, 100, 100, {255, 0, 0}}; // Piros színű szakasz az (0,0) és (100,100) pontok között
     
     // Kiírás ellenőrzés céljából
