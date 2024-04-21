@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-// Color struktúra RGB komponensekkel
 typedef struct {
     int red;
     int green;

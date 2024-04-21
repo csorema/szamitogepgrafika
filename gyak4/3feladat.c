@@ -70,7 +70,6 @@ int main(int argc, char* argv[]) {
         SDL_RenderClear(renderer);
 
         SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
-        // Minden szakasz kirajzolása
         for (int i = 0; i < lineCount; ++i) {
             SDL_RenderDrawLine(renderer, lines[i].x1, lines[i].y1, lines[i].x2, lines[i].y2);
         }

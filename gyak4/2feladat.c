@@ -8,7 +8,6 @@ int main(int argc, char* argv[]) {
         return 1;
     }
 
-    // Az ablak létrehozása
     SDL_Window* window = SDL_CreateWindow("Eger pozicio", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, 800, 600, SDL_WINDOW_SHOWN);
     if (window == NULL) {
         printf("Nem sikerult az ablak letrehozasa: %s\n", SDL_GetError());
